@@ -3,7 +3,7 @@ Cockos Reaper DAW
 
 ### My personal collection of presets for ReaPlugs & JS Effects.
 
-Feel free to download, use & share! **Sharing is caring! ![](https://s26.postimg.org/kw8egzlol/Beating_heart.gif)**
+Feel free to download, use & share! **Sharing is caring! ![](https://github.com/koulaxizis/reaper/blob/master/Images/Beating_heart.gif)**
 
 If you are familiar with GitHub, you can *Watch*, *Star* & *Fork* this repository.
 
