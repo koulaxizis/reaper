@@ -38,7 +38,9 @@ Instructions:
 **Windows Tip:** Quick access your `AppData` directory: Open "Run" and type: %AppData%
 
 **GNU/Linux Tip:** To view your `.config` folder, enter your Home folder and press <Ctrl+h>
-  
+
+---
+
 
 Contents:
 ---------
