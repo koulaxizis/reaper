@@ -19,21 +19,23 @@ Instructions:
 
 **For the INI files**
  
- - Move the INI Files into C:/Users/*YourUserName*/AppData/Roaming/REAPER/
+ - ![](https://github.com/koulaxizis/reaper/blob/master/Images/Windows.png) Move the INI Files into C:/Users/*YourUserName*/AppData/Roaming/REAPER/
+ - ![](https://github.com/koulaxizis/reaper/blob/master/Images/Linux.png) Move the INI Files into /*your-username*/.config/REAPER/
 
 **For the FX Chains**
  
- - Move the FXChains files into C:/Users/*YourUserName*/AppData/Roaming/REAPER/FXChains/
+ - ![](https://github.com/koulaxizis/reaper/blob/master/Images/Windows.png) Move the FXChains files into C:/Users/*YourUserName*/AppData/Roaming/REAPER/FXChains/
+ - ![](https://github.com/koulaxizis/reaper/blob/master/Images/Linux.png) Move the FXChains files into /*your-username*/.config/REAPER/FXChains/
 
 **For the RPL files**
 
- - Run Reaper, open the FX unit, click the "+" button, choose "Import preset library (.rpl)"
+ - ![](https://github.com/koulaxizis/reaper/blob/master/Images/Linux.png) ![](https://github.com/koulaxizis/reaper/blob/master/Images/Windows.png) Run Reaper, open the FX unit, click the "+" button, choose "Import preset library (.rpl)"
  
-**Tip:** Quick access to the AppData directory: Open "Run" and type: %AppData%
 
-![](https://github.com/koulaxizis/reaper/blob/master/Images/Linux.png) If you are using Linux, copy files at /*your-username*/.config/REAPER/
- 
- 
+**![](https://github.com/koulaxizis/reaper/blob/master/Images/Windows.png) Tip:** Quick access to the AppData directory: Open "Run" and type: %AppData%
+**![](https://github.com/koulaxizis/reaper/blob/master/Images/Linux.png) Tip:** To view the '.config' folder, enter your home folder and press Ctrl+h
+  
+
 Contents:
 ---------
 
