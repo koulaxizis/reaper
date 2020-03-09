@@ -30,6 +30,8 @@ Instructions:
  - Run Reaper, open the FX unit, click the "+" button, choose "Import preset library (.rpl)"
  
 **Tip:** Quick access to the AppData directory: Open "Run" and type: %AppData%
+
+##### If you are using Linux, copy files at /*your-username*/.config/REAPER/ ![](https://github.com/koulaxizis/reaper/blob/master/Images/Linux.png)**
  
  
 Contents:
