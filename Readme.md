@@ -34,9 +34,9 @@ Instructions:
  ![](https://github.com/koulaxizis/reaper/blob/master/Images/Tux.png) ![](https://github.com/koulaxizis/reaper/blob/master/Images/Win.png) Run Reaper, open the FX unit, click the "+" button, choose "Import preset library (.rpl)"
  
 
-**Windows Tip:** Quick access to the AppData directory: Open "Run" and type: %AppData%
+**Windows Tip:** Quick access your `AppData` directory: Open "Run" and type: %AppData%
 
-**GNU/Linux Tip:** To view the '.config' folder, enter your Home folder and press Ctrl+h
+**GNU/Linux Tip:** To view your `.config` folder, enter your Home folder and press Ctrl+h
   
 
 Contents:
