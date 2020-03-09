@@ -31,7 +31,7 @@ Instructions:
  
 **Tip:** Quick access to the AppData directory: Open "Run" and type: %AppData%
 
-##### If you are using Linux, copy files at /*your-username*/.config/REAPER/ ![](https://github.com/koulaxizis/reaper/blob/master/Images/Linux.png)**
+![](https://github.com/koulaxizis/reaper/blob/master/Images/Linux.png) If you are using Linux, copy files at /*your-username*/.config/REAPER/
  
  
 Contents:
