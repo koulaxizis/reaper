@@ -33,6 +33,7 @@ Instructions:
 
  ![](https://github.com/koulaxizis/reaper/blob/master/Images/Tux.png) ![](https://github.com/koulaxizis/reaper/blob/master/Images/Win.png) Run Reaper, open the FX unit, click the "+" button, choose "Import preset library (.rpl)"
  
+---
 
 **Windows Tip:** Quick access your `AppData` directory: Open "Run" and type: %AppData%
 
