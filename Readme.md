@@ -33,6 +33,7 @@ Instructions:
  
 
 **![](https://github.com/koulaxizis/reaper/blob/master/Images/Win.png) Tip:** Quick access to the AppData directory: Open "Run" and type: %AppData%
+
 **![](https://github.com/koulaxizis/reaper/blob/master/Images/Tux.png) Tip:** To view the '.config' folder, enter your home folder and press Ctrl+h
   
 
