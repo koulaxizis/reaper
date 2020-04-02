@@ -76,3 +76,7 @@ Contents:
  - ReaGate
  - ReaPitch
  - Distortion
+
+---
+
+If you found this repository useful, consider making a [donation](https://paypal.me/koulaxizis) through PayPal. Thanks! :relaxed: 
