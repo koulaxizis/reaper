@@ -17,7 +17,7 @@ This is a work in progress. Once in a while, it will be updated with new presets
 Instructions:
 -------------
 
-**For the INI files**  ~ :warning: Read the #Warning first!
+**For the INI files**  ~ :warning: Read the [Warning](https://github.com/koulaxizis/reaper#warning) first!
  
  ![](https://github.com/koulaxizis/reaper/blob/master/Images/Win.png) Move the INI Files into C:/Users/*YourUserName*/AppData/Roaming/REAPER/
 
@@ -35,7 +35,7 @@ Instructions:
 
  ![](https://github.com/koulaxizis/reaper/blob/master/Images/Tux.png) Move the Template files into /*your-username*/.config/REAPER/ProjectTemplates/
 
-**For the Configuration Settings** ~ :warning: Read the #Advice first!
+**For the Configuration Settings** ~ :warning: Read the [Advice](https://github.com/koulaxizis/reaper#advice) first!
 
  ![](https://github.com/koulaxizis/reaper/blob/master/Images/Win.png) Move the Template files into C:/Users/*YourUserName*/AppData/Roaming/REAPER/presets/
 
@@ -54,11 +54,12 @@ Instructions:
 ---
 
 #### Warning!
-My INI files will replace yours! If you have already created some presets of your own and wish to keep them, open my INI files with a text editor and copy the content into yours.
+My INI files will replace yours! If you have already created some presets of your own and wish to keep them, open both INI files with a text editor and copy the contents of mine into yours (at the end).
 
 #### Advice!
 If you are too bored to import each RPL seperately and you don't have any FX presets that you'd like to keep, just replace your configuration settings with mine (stock presets are incuded :wink:).
-If you wish to keep your presets, edit the configuration settings with a text editor and copy my content inside. Read the instructions above to find folder `presets`, according to your system.
+
+If you wish to keep your presets, edit the configuration settings with a text editor and copy my content inside. Read the instructions above to find folder `presets` according to your system.
 
 
 Contents:
