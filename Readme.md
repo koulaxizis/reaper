@@ -17,7 +17,7 @@ This is a work in progress. Once in a while, it will be updated with new presets
 Instructions:
 -------------
 
-**For the INI files**
+**For the INI files**  ~ :warning: Read the #Warning first!
  
  ![](https://github.com/koulaxizis/reaper/blob/master/Images/Win.png) Move the INI Files into C:/Users/*YourUserName*/AppData/Roaming/REAPER/
 
@@ -28,6 +28,18 @@ Instructions:
  ![](https://github.com/koulaxizis/reaper/blob/master/Images/Win.png) Move the FXChains files into C:/Users/*YourUserName*/AppData/Roaming/REAPER/FXChains/
 
  ![](https://github.com/koulaxizis/reaper/blob/master/Images/Tux.png) Move the FXChains files into /*your-username*/.config/REAPER/FXChains/
+
+**For the Project Templates**
+
+ ![](https://github.com/koulaxizis/reaper/blob/master/Images/Win.png) Move the Template files into C:/Users/*YourUserName*/AppData/Roaming/REAPER/ProjectTemplates/
+
+ ![](https://github.com/koulaxizis/reaper/blob/master/Images/Tux.png) Move the Template files into /*your-username*/.config/REAPER/ProjectTemplates/
+
+**For the Configuration Settings** ~ :warning: Read the #Advice first!
+
+ ![](https://github.com/koulaxizis/reaper/blob/master/Images/Win.png) Move the Template files into C:/Users/*YourUserName*/AppData/Roaming/REAPER/presets/
+
+ ![](https://github.com/koulaxizis/reaper/blob/master/Images/Tux.png) Move the Template files into /*your-username*/.config/REAPER/presets/
 
 **For the RPL files**
 
@@ -40,6 +52,13 @@ Instructions:
 **GNU/Linux Tip:** To view your `.config` folder, enter your Home folder and press <Ctrl+h>
 
 ---
+
+#### Warning!
+My INI files will replace yours! If you have already created some presets of your own and wish to keep them, open my INI files with a text editor and copy the content into yours.
+
+#### Advice!
+If you are too bored to import each RPL seperately and you don't have any FX presets that you'd like to keep, just replace your configuration settings with mine (stock presets are incuded :wink:).
+If you wish to keep your presets, edit the configuration settings with a text editor and copy my content inside. Read the instructions above to find folder `presets`, according to your system.
 
 
 Contents:
@@ -76,6 +95,11 @@ Contents:
  - ReaGate
  - ReaPitch
  - Distortion
+
++ configuration files for the above RPLs.
+
+**Templates**
+- 1 project template
 
 ---
 
