@@ -97,7 +97,7 @@ Contents:
  - ReaPitch
  - Distortion
 
-+ configuration files for the above RPLs.
+...plus configuration settings for the above RPLs.
 
 **Templates**
 - 1 project template
