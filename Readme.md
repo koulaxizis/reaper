@@ -37,9 +37,9 @@ Instructions:
 
 **For the Configuration Settings** ~ :warning: Read the [Advice](https://github.com/koulaxizis/reaper#advice) first!
 
- ![](https://github.com/koulaxizis/reaper/blob/master/Images/Win.png) Move the Template files into C:/Users/*YourUserName*/AppData/Roaming/REAPER/presets/
+ ![](https://github.com/koulaxizis/reaper/blob/master/Images/Win.png) Move the Configuration Settings into C:/Users/*YourUserName*/AppData/Roaming/REAPER/presets/
 
- ![](https://github.com/koulaxizis/reaper/blob/master/Images/Tux.png) Move the Template files into /*your-username*/.config/REAPER/presets/
+ ![](https://github.com/koulaxizis/reaper/blob/master/Images/Tux.png) Move the Configuration Settings into /*your-username*/.config/REAPER/presets/
 
 **For the RPL files**
 
@@ -72,6 +72,9 @@ Contents:
 **FX Chains**
  - 8 FXchains for Mixing
  - 1 FXchain for Mastering
+
+**Templates**
+- 1 project template
  
 **RPL Files**
  - 1175 Compressor
@@ -98,9 +101,6 @@ Contents:
  - Distortion
 
 ...plus configuration settings for the above RPLs.
-
-**Templates**
-- 1 project template
 
 ---
 
