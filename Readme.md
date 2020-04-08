@@ -99,6 +99,7 @@ Contents:
  - ReaGate
  - ReaPitch
  - Distortion
+ - Pitch Down-Shifter
 
 ...plus configuration settings for the above RPLs.
 
