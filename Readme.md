@@ -70,7 +70,7 @@ Contents:
  - SWS Auto Color/Icon
  
 **FX Chains**
- - 8 FXchains for Mixing
+ - 10 FXchains for Mixing
  - 1 FXchain for Mastering
 
 **Templates**
