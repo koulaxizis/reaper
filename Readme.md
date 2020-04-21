@@ -106,6 +106,7 @@ Contents:
 ---
 
 Get the SWS Reaper extension for auto colors/icons/layouts: http://www.sws-extension.org/
+
 Suggested theme for better SWS: https://stash.reaper.fm/theme/2207/LCS_Blue.ReaperThemeZip
 
 ---
