@@ -74,7 +74,7 @@ Contents:
  - 1 FXchain for Mastering
 
 **Templates**
-- 1 project template
+- 2 project templates
  
 **RPL Files**
  - 1175 Compressor
@@ -102,6 +102,11 @@ Contents:
  - Pitch Down-Shifter
 
 ...plus configuration settings for the above RPLs.
+
+---
+
+Get the SWS Reaper extension for auto colors/icons/layouts: http://www.sws-extension.org/
+Suggested theme for better SWS: https://stash.reaper.fm/theme/2207/LCS_Blue.ReaperThemeZip
 
 ---
 
