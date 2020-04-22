@@ -66,7 +66,7 @@ Contents:
 ---------
 
 **INI Files**
- - Rendering presets 
+ - 5 rendering presets 
  - SWS Auto Color/Icon
  
 **FX Chains**
@@ -100,6 +100,9 @@ Contents:
  - ReaPitch
  - Distortion
  - Pitch Down-Shifter
+ - Tonifier v2
+ - 4-Band EQ
+ - 4x4 EQ
 
 ...plus configuration settings for the above RPLs.
 
