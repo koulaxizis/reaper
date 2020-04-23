@@ -70,11 +70,11 @@ Contents:
  - SWS Auto Color/Icon
  
 **FX Chains**
- - 10 FXchains for Mixing
+ - 11 FXchains for Mixing
  - 1 FXchain for Mastering
 
 **Templates**
-- 2 project templates
+- 3 project templates
  
 **RPL Files**
  - 1175 Compressor
