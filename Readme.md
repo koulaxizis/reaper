@@ -44,7 +44,12 @@ Instructions:
 **For the RPL files**
 
  ![](https://github.com/koulaxizis/reaper/blob/master/Images/Tux.png) ![](https://github.com/koulaxizis/reaper/blob/master/Images/Win.png) Run Reaper, open the FX unit, click the "+" button, choose "Import preset library (.rpl)"
- 
+
+**For the JS Plugins** ~ :warning: Read the [Extras](https://github.com/koulaxizis/reaper#extras) first!
+
+ ![](https://github.com/koulaxizis/reaper/blob/master/Images/Win.png) Move the JS Plugin file (or folder) into C:/Users/*YourUserName*/AppData/Roaming/REAPER/Effects/
+
+ ![](https://github.com/koulaxizis/reaper/blob/master/Images/Tux.png) Move the JS Plugin file (or folder) into /*your-username*/.config/REAPER/Effects/ 
 ---
 
 **Windows Tip:** Quick access your `AppData` directory: Open "Run" and type: %AppData%
@@ -70,11 +75,12 @@ Contents:
  - SWS Auto Color/Icon
  
 **FX Chains**
- - 11 FXchains for Mixing
+ - 12 FXchains for Mixing
  - 1 FXchain for Mastering
 
 **Templates**
 - 3 project templates
+- 1 FX testing template *(suggested [audio file](https://freesound.org/people/acclivity/sounds/24096/) to play with)* 
  
 **RPL Files**
  - 1175 Compressor
@@ -108,7 +114,18 @@ Contents:
 
 ---
 
-Get the SWS Reaper extension for auto colors/icons/layouts: http://www.sws-extension.org/
+Extras:
+-------
+
+Some of my presets require the following awesome (and free) JS plugins:
+ - https://stash.reaper.fm/v/28891/kawa_XY_BitCrusher.jsfx
+ - https://stash.reaper.fm/v/25099/Little%20Black%20Box.zip
+
+Recommended:
+------------
+
+:point_right: Get the SWS extension for auto colors/icons/layouts: http://www.sws-extension.org/
+:point_right: Get the ReaPack extension for countless free Reaper resources: https://reapack.com/
 
 ---
 
