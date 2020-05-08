@@ -113,7 +113,6 @@ Contents:
 
 ...plus configuration settings for the above RPLs.
 
----
 
 Extras:
 -------
@@ -122,7 +121,6 @@ Some of my presets require the following awesome (and free) JS plugins:
  - https://stash.reaper.fm/v/28891/kawa_XY_BitCrusher.jsfx
  - https://stash.reaper.fm/v/25099/Little%20Black%20Box.zip
 
----
 
 Recommended:
 ------------
