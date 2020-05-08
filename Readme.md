@@ -126,6 +126,7 @@ Recommended:
 ------------
 
 :point_right: Get the SWS extension for auto colors/icons/layouts: http://www.sws-extension.org/
+
 :point_right: Get the ReaPack extension for countless free Reaper resources: https://reapack.com/
 
 ---
