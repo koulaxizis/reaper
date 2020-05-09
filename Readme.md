@@ -110,7 +110,7 @@ Contents:
  - Tonifier v2
  - 4-Band EQ
  - 4x4 EQ
- - Lo-fi  [[3]]((https://github.com/koulaxizis/reaper#extras)
+ - Lo-fi  [[3]](https://github.com/koulaxizis/reaper#extras)
  - Paranoia Mangler
  - Butterworth 4-Pole Filter
 
