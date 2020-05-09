@@ -76,7 +76,7 @@ Contents:
  - SWS Auto Color/Icon
  
 **FX Chains**
- - 12 FXchains for Mixing [[[1 & 2]((https://github.com/koulaxizis/reaper#extras)]
+ - 12 FXchains for Mixing [ [1 & 2]((https://github.com/koulaxizis/reaper#extras) ]
  - 1 FXchain for Mastering
 
 **Templates**
@@ -110,7 +110,7 @@ Contents:
  - Tonifier v2
  - 4-Band EQ
  - 4x4 EQ
- - Lo-fi [[3]]((https://github.com/koulaxizis/reaper#extras)]
+ - Lo-fi [ [3]((https://github.com/koulaxizis/reaper#extras) ]
  - Paranoia Mangler
  - Butterworth 4-Pole Filter
 
