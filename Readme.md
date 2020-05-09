@@ -45,11 +45,11 @@ Instructions:
 
  ![](https://github.com/koulaxizis/reaper/blob/master/Images/Tux.png) ![](https://github.com/koulaxizis/reaper/blob/master/Images/Win.png) Run Reaper, open the FX unit, click the "+" button, choose "Import preset library (.rpl)"
 
-**For the JS Plugins** ~ :warning: Read the [Extras](https://github.com/koulaxizis/reaper#extras) first!
+**For the JS Effects** ~ :warning: Read the [Extras](https://github.com/koulaxizis/reaper#extras) first!
 
- ![](https://github.com/koulaxizis/reaper/blob/master/Images/Win.png) Move the JS Plugin file (or folder) into C:/Users/*YourUserName*/AppData/Roaming/REAPER/Effects/
+ ![](https://github.com/koulaxizis/reaper/blob/master/Images/Win.png) Move the JS Effect files (or folders) into C:/Users/*YourUserName*/AppData/Roaming/REAPER/Effects/
 
- ![](https://github.com/koulaxizis/reaper/blob/master/Images/Tux.png) Move the JS Plugin file (or folder) into /*your-username*/.config/REAPER/Effects/ 
+ ![](https://github.com/koulaxizis/reaper/blob/master/Images/Tux.png) Move the JS Effect files (or folders) into /*your-username*/.config/REAPER/Effects/ 
 
 ---
 
@@ -76,7 +76,7 @@ Contents:
  - SWS Auto Color/Icon
  
 **FX Chains**
- - 12 FXchains for Mixing
+ - 12 FXchains for Mixing [[1 & 2]((https://github.com/koulaxizis/reaper#extras)]
  - 1 FXchain for Mastering
 
 **Templates**
@@ -110,6 +110,9 @@ Contents:
  - Tonifier v2
  - 4-Band EQ
  - 4x4 EQ
+ - Lo-fi [[3]((https://github.com/koulaxizis/reaper#extras)]
+ - Paranoia Mangler
+ - Butterworth 4-Pole Filter
 
 ...plus configuration settings for the above RPLs.
 
@@ -117,9 +120,10 @@ Contents:
 Extras:
 -------
 
-Some of my presets require the following awesome (and free) JS plugins:
- - https://stash.reaper.fm/v/28891/kawa_XY_BitCrusher.jsfx
- - https://stash.reaper.fm/v/25099/Little%20Black%20Box.zip
+Some of my presets require the following awesome (and free) JS Effects:
+ - [1] https://stash.reaper.fm/v/28891/kawa_XY_BitCrusher.jsfx
+ - [2] https://stash.reaper.fm/v/25099/Little%20Black%20Box.zip
+ - [3] https://stash.reaper.fm/v/19484/Liteon_lo-fi
 
 
 Recommended:
