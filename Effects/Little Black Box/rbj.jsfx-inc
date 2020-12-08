@@ -1,0 +1,211 @@
+/*
+** Name: rbj.jsfx-inc
+** Desc: A Jesusonic implementation of RBJ's Cookbook.
+** Auth: Derek John Evans
+**
+** Copyright (C) 2015 Derek John Evans
+**
+** License: LGPL - http://www.gnu.org/licenses/gpl.html
+*/
+
+import std.cmath.jsfx-inc
+
+@init
+
+function RBJ.SetF(F) global(srate)
+(
+  this.w0 = 2 * $pi * (this.F = F) / srate;
+  this.cos = cos(this.w0);
+  this.sin = sin(this.w0);  
+);
+
+function RBJ.SetA(A) global()
+(
+  this.A = A;
+);
+
+// For peaking and shelving EQ filters only
+function RBJ.SetG1(G) global()
+(
+  this.RBJ.SetA(sqrt(10 ^ (G / 20)));
+);
+
+// For peaking and shelving EQ filters only
+function RBJ.SetG2(G) global()
+(
+  this.RBJ.SetA(10 ^ (G / 40));
+);
+
+function RBJ.SetQ(Q) global()
+(
+  this.alpha = this.sin / (2 * (this.Q = Q));
+);
+
+function RBJ.SetS(S) global()
+(
+  this.RBJ.SetQ(1 / (sqrt((this.A + 1 / this.A) * (1 / S - 1) + 2)));
+);
+
+// Digital filter w BLT
+function RBJ.SetBW1(BW) global(M_LN2)
+(
+  this.RBJ.SetQ(1 / (2 * sinh(M_LN2 / 2 * BW * this.w0 / this.sin)));
+);
+
+// Analog filter prototype
+function RBJ.SetBW2(BW) global(M_LN2)
+(
+  this.RBJ.SetQ(1 / (2 * sinh(M_LN2 / 2 * BW)));
+);
+
+// Init filter given frequency, attenuation and Q factor.
+function RBJ.SetFAQ(F, A, Q) global()
+( 
+  this.RBJ.SetF(F);
+  this.RBJ.SetA(A);
+  this.RBJ.SetQ(Q);
+);
+
+// Init filter given frequency and Q factor.
+function RBJ.SetFQ(F, Q) global()
+(
+  this.RBJ.SetFAQ(F, 0, Q);
+);
+
+// Init filter given frequency, attenuation and shelf slope.
+function RBJ.SetFAS(F, A, S) global()
+(
+  this.RBJ.SetF(F);
+  this.RBJ.SetA(A);
+  this.RBJ.SetS(S);
+);
+
+// Init filter given frequency and attenuation.
+function RBJ.SetFA(F, A) global()
+(
+  this.RBJ.SetFAS(F, A, 1);
+);
+
+function RBJ.SetFG1S(F, G, S) global()
+(
+  this.RBJ.SetF(F);
+  this.RBJ.SetG1(G);
+  this.RBJ.SetS(S);
+);
+
+function RBJ.SetFG1S(F, G) global()
+(
+  this.RBJ.SetFG1S(F, G, 1);
+);
+
+function RBJ.SetFG2Q(F, G, Q) global()
+(
+  this.RBJ.SetF(F);
+  this.RBJ.SetG2(G);
+  this.RBJ.SetQ(Q);
+);
+
+function RBJ.SetFG2S(F, G, S) global()
+(
+  this.RBJ.SetF(F);
+  this.RBJ.SetG2(G);
+  this.RBJ.SetS(S);
+);
+
+function RBJ.SetFG2S(F, G) global()
+(
+  this.RBJ.SetFG2S(F, G, 1);
+);
+
+
+function RBJ.SetFG2BW1(F, G, BW) global()
+(
+  this.RBJ.SetF(F);
+  this.RBJ.SetG2(G);
+  this.RBJ.SetBW1(BW);
+);
+
+function RBJ.SetFG2BW2(F, G, BW) global()
+(
+  this.RBJ.SetF(F);
+  this.RBJ.SetG2(G);
+  this.RBJ.SetBW2(BW);
+);
+
+function RBJ.Invert() global()
+instance(a0, a1, a2, b0, b1, b2)
+(
+  b0 /= a0; b1 /= a0; b2 /= a0;
+  a1 /= a0; a2 /= a0;
+  0;
+);
+
+function RBJ.Sample(spl) global()
+instance(b0, b1, b2, a1, a2, x1, x2, y1, y2)
+local(op)
+(
+  op = b0 * spl + b1 * x1 + b2 * x2 - a1 * y1 - a2 * y2;
+  x2 = x1; x1 = spl; y2 = y1; y1 = op;
+);
+
+function RBJ.LPF() global()
+instance(alpha, cos, a0, a1, a2, b0, b1, b2)
+(
+  b0 = (1 - cos) / 2;
+  b1 = (1 - cos);
+  b2 = (1 - cos) / 2;
+  a0 = 1 + alpha;
+  a1 = -2 * cos;
+  a2 = 1 - alpha;
+  this.RBJ.Invert();
+);
+
+function RBJ.HPF() global()
+instance(alpha, cos, a0, a1, a2, b0, b1, b2)
+(
+  b0 =  (1 + cos) / 2;
+  b1 = -(1 + cos);
+  b2 =  (1 + cos) / 2;
+  a0 =   1 + alpha;
+  a1 =  -2 * cos;
+  a2 =   1 - alpha;
+  this.RBJ.Invert();
+);
+
+function RBJ.Notch() global()
+instance(alpha, cos, a0, a1, a2, b0, b1, b2)
+(
+  b0 =   1;
+  b1 =  -2 * cos;
+  b2 =   1;
+  a0 =   1 + alpha;
+  a1 =  -2 * cos;
+  a2 =   1 - alpha;
+  this.RBJ.Invert();
+);
+
+function RBJ.APF() global()
+instance(alpha, cos, a0, a1, a2, b0, b1, b2)
+(
+  b0 =   1 - alpha;
+  b1 =  -2 * cos;
+  b2 =   1 + alpha;
+  a0 =   1 + alpha;
+  a1 =  -2 * cos;
+  a2 =   1 - alpha;
+  this.RBJ.Invert();
+);
+
+function RBJ.PeakEq() global()
+instance(alpha, cos, a0, a1, a2, b0, b1, b2, A)
+(
+  b0 =   1 + alpha * A;
+  b1 =  -2 * cos;
+  b2 =   1 - alpha * A;
+  a0 =   1 + alpha / A;
+  a1 =  -2 * cos;
+  a2 =   1 - alpha / A;
+  this.RBJ.Invert();
+);
+
+
