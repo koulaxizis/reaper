@@ -133,12 +133,6 @@ Recommended:
 
 :point_right: Get the ReaPack extension for countless free Reaper resources: https://reapack.com/
 
-
-FYI:
-----
-
-I use Reaper on Linux. I try to make use of its built-in plugins only. By time to time I discover some interesting JS effects or LV2 plugins that I 'd like to use or even create presets based on them. You will find links to their pages under the [Extras](https://github.com/koulaxizis/reaper#extras) section, or you can download them directly (*not always the latest versions*) from my "Effects" folder. Just copy them inside your Effects folder (see [Instructions](https://github.com/koulaxizis/reaper#instructions)) and point your VST search path there, according to your OS.
-
 ---
 
 If you found this repository useful, consider making a [donation](https://paypal.me/koulaxizis) through PayPal. Thanks! :relaxed: 
