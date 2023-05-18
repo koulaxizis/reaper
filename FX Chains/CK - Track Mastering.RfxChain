@@ -1,50 +1,50 @@
 BYPASS 0 0
-<VST "VST: ReaEQ (Cockos)" reaeq.dll 0 "CK ReaMaster Equalizer" 1919247729
-  cWVlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAqAAAAAEAAAAAABAA
+<VST "VST: ReaEQ (Cockos)" reaeq.dll 0 "CK ReaMaster Equalizer" 1919247729<56535472656571726561657100000000> ""
+  cWVlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAArAAAAAEAAAAAABAA
   IQAAAAQAAAAAAAAAAQAAAAAAAAAAAFlAAAAAAAAA8D8AAAAAAAAAQAEIAAAAAQAAAAAAAAAAwHJAAAAAAAAA8D8AAAAAAAAAQAEIAAAAAQAAAAAAAAAAQI9AAAAAAAAA
-  8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAiLNAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AAAAAAAAAAAAAAAA
+  8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAiLNAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AAAAAP0BAABcAQAAAgAAAA==
   AAAQAAAA
 >
-WAK 0
+WAK 0 0
 BYPASS 0 0
-<VST "VST: ReaXcomp (Cockos)" reaxcomp.dll 0 "CK ReaMaster Multiband" 1919252579
-  Y3hlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAABAEAAAEAAAAAABAA
+<VST "VST: ReaXcomp (Cockos)" reaxcomp.dll 0 "CK ReaMaster Multiband" 1919252579<5653547265786372656178636F6D7000> ""
+  Y3hlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAADAEAAAEAAAAAABAA
   OAAAAAQAAAAAAAAAAABpQAAAAAAAAPA/AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAAADwAAAJYAAAAFAAAAEQAAAAAAAAAAQI9AAAAAAAAA8D8AAAAAAADwPwAAAAAAAABA
   AAAAAAAAAAAPAAAAlgAAAAUAAAARAAAAAAAAAACIs0AAAAAAAADwPwAAAAAAAPA/AAAAAAAAAEAAAAAAAAAAAA8AAACWAAAABQAAABEAAAAAAAAAAHDXQAAAAAAAAPA/
-  AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAAADwAAAJYAAAAFAAAAEQAAAAEAAAABAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAA=
+  AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAAADwAAAJYAAAAFAAAAEQAAAAEAAAABAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAABAAAAAgAAAA==
   AAAQAAAA
 >
-WAK 0
+WAK 0 0
 BYPASS 0 0
 <JS loser/Saturation "CK ReaMaster Saturation"
-  0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+  0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 >
-WAK 0
+WAK 0 0
 BYPASS 0 0
 <JS SStillwell/exciter "CK ReaMaster High Exciter"
-  0.000000 0.000000 5000.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+  0 0 5000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 >
-WAK 0
+WAK 0 0
 BYPASS 0 0
 <JS sstillwell/hugebooty "CK ReaMaster Low Exciter"
-  0.000000 0.000000 100.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+  0 0 100 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 >
-WAK 0
+WAK 0 0
 BYPASS 0 0
 <JS LOSER/stereoEnhancer "CK ReaMaster Stereo Enhancer"
-  100.000000 500.000000 100.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+  100 500 100 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 >
-WAK 0
+WAK 0 0
 BYPASS 0 0
-<VST "VST: ReaEQ (Cockos)" reaeq.dll 0 "CK ReaMaster Clean up EQ" 1919247729
-  cWVlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAqAAAAAEAAAAAABAA
+<VST "VST: ReaEQ (Cockos)" reaeq.dll 0 "CK ReaMaster Clean up EQ" 1919247729<56535472656571726561657100000000> ""
+  cWVlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAArAAAAAEAAAAAABAA
   IQAAAAQAAAAEAAAAAQAAAP///////0NAAAAAAAAA8D8AAAAAAAAAQAEIAAAAAQAAAAAAAAAAwHJAAAAAAAAA8D8AAAAAAAAAQAEIAAAAAQAAAAAAAAAAQI9AAAAAAAAA
-  8D8AAAAAAAAAQAEDAAAAAQAAAAAAAAAAlNFAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AAAAAA8CAABhAQAA
+  8D8AAAAAAAAAQAEDAAAAAQAAAAAAAAAAlNFAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AAAAAA8CAABhAQAAAgAAAA==
   AAAQAAAA
 >
-WAK 0
+WAK 0 0
 BYPASS 0 0
-<JS loser/MGA_JSLimiter "CK ReaMaster Limiter"
-  0.000000 200.000000 -0.300000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+<JS loser/masterLimiter "CK Master Limiter"
+  -3 200 100 0 250 -0.1 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 >
-WAK 0
+WAK 0 0
