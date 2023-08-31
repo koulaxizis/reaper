@@ -51,7 +51,7 @@ Instructions:
 
  ![](https://github.com/koulaxizis/reaper/blob/master/Images/Tux.png) Move the JS Effect files (or folders) into /*your-username*/.config/REAPER/Effects/ 
  
-**For the Icon Packs** ~ :warning: You need the [SWS extension](https://github.com/koulaxizis/reaper#advice)!
+**For the Icon Packs** ~ :warning: You need the [SWS extension](https://github.com/koulaxizis/reaper#recommended)!
 
  ![](https://github.com/koulaxizis/reaper/blob/master/Images/Win.png) Move the Iconpacks into C:/Users/*YourUserName*/AppData/Roaming/REAPER/Data/track_icons
 
