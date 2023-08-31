@@ -55,7 +55,7 @@ Instructions:
 
  ![](https://github.com/koulaxizis/reaper/blob/master/Images/Win.png) Move the Iconpacks into C:/Users/*YourUserName*/AppData/Roaming/REAPER/Data/track_icons
 
- ![](https://github.com/koulaxizis/reaper/blob/master/Images/Tux.png) Move the JS Effect files (or folders) into /*your-username*/.config/REAPER/Data/track_icons
+ ![](https://github.com/koulaxizis/reaper/blob/master/Images/Tux.png) Move the the Iconpacks into /*your-username*/.config/REAPER/Data/track_icons
 
 ---
 
@@ -123,9 +123,6 @@ Contents:
 
 ...plus configuration settings for the above RPLs.
 
-**Icon Packs**
- - 39 icons in 5 color styles [Attribution](https://www.smashingmagazine.com/2016/05/freebie-music-instrument-icons-39-icons-png-svg/)
-
 
 Extras:
 -------
@@ -142,6 +139,12 @@ Recommended:
 :point_right: Get the SWS extension for auto colors/icons/layouts: http://www.sws-extension.org/
 
 :point_right: Get the ReaPack extension for countless free Reaper resources: https://reapack.com/
+
+
+Tips:
+------------
+
+:point_right: Get 39 FREE icons in 5 color styles for the SWS auto icon extension: Smashing Magazine Freebie](https://www.smashingmagazine.com/2016/05/freebie-music-instrument-icons-39-icons-png-svg/)
 
 ---
 
