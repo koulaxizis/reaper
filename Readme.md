@@ -144,7 +144,7 @@ Recommended:
 Tips:
 ------------
 
-:point_right: Get 39 FREE icons in 5 color styles for the SWS auto icon extension: Smashing Magazine Freebie](https://www.smashingmagazine.com/2016/05/freebie-music-instrument-icons-39-icons-png-svg/)
+:point_right: Get 39 FREE icons in 5 color styles for the SWS auto icon extension: [Smashing Magazine Freebie](https://www.smashingmagazine.com/2016/05/freebie-music-instrument-icons-39-icons-png-svg/)
 
 ---
 
