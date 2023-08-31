@@ -50,6 +50,12 @@ Instructions:
  ![](https://github.com/koulaxizis/reaper/blob/master/Images/Win.png) Move the JS Effect files (or folders) into C:/Users/*YourUserName*/AppData/Roaming/REAPER/Effects/
 
  ![](https://github.com/koulaxizis/reaper/blob/master/Images/Tux.png) Move the JS Effect files (or folders) into /*your-username*/.config/REAPER/Effects/ 
+ 
+**For the Icon Packs** ~ :warning: You need the [SWS extension](https://github.com/koulaxizis/reaper#advice)!
+
+ ![](https://github.com/koulaxizis/reaper/blob/master/Images/Win.png) Move the Iconpacks into C:/Users/*YourUserName*/AppData/Roaming/REAPER/Data/track_icons
+
+ ![](https://github.com/koulaxizis/reaper/blob/master/Images/Tux.png) Move the JS Effect files (or folders) into /*your-username*/.config/REAPER/Data/track_icons
 
 ---
 
@@ -113,8 +119,12 @@ Contents:
  - Lo-fi  [[3]](https://github.com/koulaxizis/reaper#extras)
  - Paranoia Mangler
  - Butterworth 4-Pole Filter
+ - Master Limiter
 
 ...plus configuration settings for the above RPLs.
+
+**Icon Packs**
+ - 39 icons in 5 color styles [Attribution](https://www.smashingmagazine.com/2016/05/freebie-music-instrument-icons-39-icons-png-svg/)
 
 
 Extras:
