@@ -120,6 +120,7 @@ Contents:
  - Paranoia Mangler
  - Butterworth 4-Pole Filter
  - Master Limiter
+ - ReaLimit
 
 ...plus configuration settings for the above RPLs.
 
