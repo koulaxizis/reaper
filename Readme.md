@@ -84,7 +84,7 @@ Contents:
  - SWS Auto Color/Icon
  
 **FX Chains**
- - 14 FXchains for Mixing [[1 & 2]](https://github.com/koulaxizis/reaper#extras)
+ - 16 FXchains for Mixing [[1 & 2]](https://github.com/koulaxizis/reaper#extras)
  - 1 FXchain for Mastering
 
 **Templates**

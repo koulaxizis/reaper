@@ -1,0 +1,184 @@
+BYPASS 0 0
+<JS loser/4BandSplitter ""
+  200 2000 5000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+>
+FXID {C5A5A808-02E2-4330-B49E-03ECDB7F05A0}
+WAK 0 0
+BYPASS 0 0
+<VST "VST: ReaXcomp" reaxcomp.dll 0 "" 1919252579<5653547265786372656178636F6D7000> ""
+  Y3hlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAADAEAAAEAAAAAABAA
+  OAAAAAQAAAAAAAAAAABpQAAAAAAAAPA/AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAAADwAAAJYAAAAFAAAAEQAAAAAAAAAAQI9AAAAAAAAA8D8AAAAAAADwPwAAAAAAAABA
+  AAAAAAAAAAAPAAAAlgAAAAUAAAARAAAAAAAAAACIs0AAAAAAAADwPwAAAAAAAPA/AAAAAAAAAEAAAAAAAAAAAA8AAACWAAAABQAAABEAAAAAAAAAAHDXQAAAAAAAAPA/
+  AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAAADwAAAJYAAAAFAAAAEQAAAAEAAAABAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAAAgAAAA==
+  AAAQAAAA
+>
+FXID {2521B3BF-44AC-4736-B593-307E52044AED}
+WAK 0 0
+BYPASS 0 0
+<CONTAINER Container ""
+  CONTAINER_CFG 2 2 2 0
+  <IN_PINS
+  >
+  <OUT_PINS
+  >
+  SHOW 0
+  LASTSEL 0
+  DOCKED 0
+  BYPASS 0 0 0
+  <JS loser/4BandEQ ""
+    0 200 0 2000 0 5000 0 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  >
+  FLOATPOS 0 0 0 0
+  FXID {20E9CC36-3176-4722-8603-94A902343245}
+  WAK 0 0
+  BYPASS 0 0 0
+  <JS "Odd n Even Saturation" ""
+    0 0 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  >
+  FLOATPOS 0 0 0 0
+  FXID {4F7CAB91-0570-4165-A2E4-ED1CE3922675}
+  WAK 0 0
+  BYPASS 0 0 0
+  <JS loser/waveShapingDstr ""
+    0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  >
+  JS_DIMS 489 268
+  FLOATPOS 0 0 0 0
+  FXID {EDB31ED5-5E19-41D8-BF75-1A53141B4383}
+  WAK 0 0
+  BYPASS 0 0 0
+  <JS schwa/soft_clipper ""
+    0 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  >
+  FLOATPOS 0 0 0 0
+  FXID {7FFD40EC-0791-472B-9D87-E3A839CC9CD2}
+  WAK 0 0
+>
+FXID {75B96835-2178-4636-B73A-A2C2BFD8147D}
+WAK 0 0
+BYPASS 0 0
+<CONTAINER Container ""
+  CONTAINER_CFG 2 2 2 0
+  <IN_PINS
+  >
+  <OUT_PINS
+  >
+  SHOW 0
+  LASTSEL 0
+  DOCKED 0
+  BYPASS 0 0 0
+  <JS loser/4BandEQ ""
+    0 200 0 2000 0 5000 0 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  >
+  FLOATPOS 0 0 0 0
+  FXID {97D168FD-1EB3-49FD-A91F-04382A7CAA3E}
+  WAK 0 0
+  BYPASS 0 0 0
+  <JS "Odd n Even Saturation" ""
+    0 0 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  >
+  FLOATPOS 0 0 0 0
+  FXID {A1A198CE-C353-43C4-B2D6-DC921A99E8C7}
+  WAK 0 0
+  BYPASS 0 0 0
+  <JS loser/waveShapingDstr ""
+    0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  >
+  JS_DIMS 489 268
+  FLOATPOS 0 0 0 0
+  FXID {1148F078-FF91-4B80-971C-A85172F33C47}
+  WAK 0 0
+  BYPASS 0 0 0
+  <JS schwa/soft_clipper ""
+    0 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  >
+  FLOATPOS 0 0 0 0
+  FXID {6B83F049-730C-4CEA-9FF5-659C22DB8FD6}
+  WAK 0 0
+>
+FXID {36266D04-9E12-4F79-B15E-BD4C03925320}
+WAK 0 0
+BYPASS 0 0
+<CONTAINER Container ""
+  CONTAINER_CFG 2 2 2 0
+  <IN_PINS
+  >
+  <OUT_PINS
+  >
+  SHOW 0
+  LASTSEL 0
+  DOCKED 0
+  BYPASS 0 0 0
+  <JS loser/4BandEQ ""
+    0 200 0 2000 0 5000 0 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  >
+  FLOATPOS 0 0 0 0
+  FXID {DE9BB914-A5FC-4258-BA5D-438BEFEF9D50}
+  WAK 0 0
+  BYPASS 0 0 0
+  <JS "Odd n Even Saturation" ""
+    0 0 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  >
+  FLOATPOS 0 0 0 0
+  FXID {B13EE43B-7251-4A0B-A3FE-95A354F7B0C5}
+  WAK 0 0
+  BYPASS 0 0 0
+  <JS loser/waveShapingDstr ""
+    0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  >
+  JS_DIMS 489 268
+  FLOATPOS 0 0 0 0
+  FXID {C614F57C-E050-41C8-B91E-11495FA899FF}
+  WAK 0 0
+  BYPASS 0 0 0
+  <JS schwa/soft_clipper ""
+    0 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  >
+  FLOATPOS 0 0 0 0
+  FXID {CC984783-ECC6-44E7-8A43-DCFBC968DF91}
+  WAK 0 0
+>
+FXID {7ED34652-1365-436C-86B8-50598D039D2E}
+WAK 0 0
+BYPASS 0 0
+<CONTAINER Container ""
+  CONTAINER_CFG 2 2 2 0
+  <IN_PINS
+  >
+  <OUT_PINS
+  >
+  SHOW 1
+  LASTSEL 0
+  DOCKED 0
+  BYPASS 0 0 0
+  <JS loser/4BandEQ ""
+    0 200 0 2000 0 5000 0 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  >
+  FLOATPOS 0 0 0 0
+  FXID {4999268C-DD29-424B-913E-B9F6FBD55DD7}
+  WAK 0 0
+  BYPASS 0 0 0
+  <JS "Odd n Even Saturation" ""
+    0 0 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  >
+  FLOATPOS 0 0 0 0
+  FXID {DC66FCBC-5E1D-41B4-BB0A-7F8BEBA37E84}
+  WAK 0 0
+  BYPASS 0 0 0
+  <JS loser/waveShapingDstr ""
+    0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  >
+  JS_DIMS 489 268
+  FLOATPOS 0 0 0 0
+  FXID {EDF54A48-4ACB-4B74-9F70-B54911F6E77C}
+  WAK 0 0
+  BYPASS 0 0 0
+  <JS schwa/soft_clipper ""
+    0 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  >
+  FLOATPOS 0 0 0 0
+  FXID {57E3A0A5-4E92-4306-83D5-798A3C127334}
+  WAK 0 0
+>
+FXID {41650A40-7E60-494F-9990-0E8823F81134}
+WAK 0 0
