@@ -3,6 +3,8 @@ Cockos Reaper DAW
 
 ### My personal collection of presets for ReaPlugs & JS Effects.
 
+You don't really need third-party plugins to produce, mix and master. All you need is already available in Reaper!
+
 Feel free to download, use & share! **Sharing is caring! ![](https://github.com/koulaxizis/reaper/blob/master/Images/Beating_heart.gif)**
 
 If you are familiar with GitHub, you can *Watch*, *Star* & *Fork* this repository.
@@ -82,7 +84,7 @@ Contents:
  - SWS Auto Color/Icon
  
 **FX Chains**
- - 12 FXchains for Mixing [[1 & 2]](https://github.com/koulaxizis/reaper#extras)
+ - 14 FXchains for Mixing [[1 & 2]](https://github.com/koulaxizis/reaper#extras)
  - 1 FXchain for Mastering
 
 **Templates**
